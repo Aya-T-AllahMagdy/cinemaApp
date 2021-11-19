@@ -1,0 +1,7 @@
+const TopRatedTypes = {
+  GET_TOP_RATED_START: " GET_TOP_RATED_START",
+  GET_TOP_RATED_SUCCESS: "GET_TOP_RATED_SUCCESS",
+  GET_TOP_RATED_FAILED: "GET_TOP_RATED_FAILED",
+};
+
+export default TopRatedTypes;

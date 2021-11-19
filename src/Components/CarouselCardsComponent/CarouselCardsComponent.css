@@ -1,0 +1,65 @@
+.carousel_card img {
+    border-radius: 5px;
+}
+.carousel_data{
+    position: absolute;
+    bottom: 30px;
+  }
+  .carousel_data {
+    border-radius: 5px;
+    position: absolute;
+    z-index: 99999;
+    width: 96.4%;
+    opacity: 0;
+    transition: opacity 0.7s linear;
+  }
+  .small-carousel .slick-track .slick-active:hover .carousel_data {
+      
+    display: block;
+    z-index: 99999;
+    width: 96.8%;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transition-delay: 0.5s;
+    opacity:1;
+    background: -o-linear-gradient(
+        top,
+        rgba(0, 0, 0, 0.10717790534182425) 0%,
+        rgba(0, 0, 0, 0.9475140397956058) 41%,
+        rgba(0, 0, 0, 1) 78%
+      );
+      background: -webkit-gradient(
+        linear,
+        left top, left bottom,
+        from(rgba(0, 0, 0, 0.10717790534182425)),
+        color-stop(41%, rgba(0, 0, 0, 0.9475140397956058)),
+        color-stop(78%, rgba(0, 0, 0, 1))
+      );
+      background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.10717790534182425) 0%,
+        rgba(0, 0, 0, 0.9475140397956058) 41%,
+        rgba(0, 0, 0, 1) 78%
+      );
+      transition-delay: 0.5s;
+  }
+
+.slick-track .slick-active {
+    position: relative;
+    transition-delay: 0.2s;
+    transition: 0.7s all;
+    transform: scale(1);
+  }
+  .slick-active:hover {
+    transform: scale(1.1);
+    transition-delay: 0.7s;
+    z-index: 777;
+    border-radius: 5px;
+  }
+  .slick-track{
+      margin-top: 30px;
+      margin-bottom: 10px;
+  }
+  .widget-svg{
+      width: 20px!important;
+  }
