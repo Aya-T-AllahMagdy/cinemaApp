@@ -30,7 +30,6 @@ export default function Login(props) {
     e.preventDefault();
     console.log(formValue.username, formValue.password);
   };
-  //   const [isAuth, setIsAuth] = useState(false);
 
   return (
     <Container>

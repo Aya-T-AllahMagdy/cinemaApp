@@ -23,7 +23,6 @@ function SearchComponent(props) {
       props.clearSearch();
     };
   }, [search]);
-  console.log(props.sendSearchState?.results, "ppp");
   return (
     <div>
       <form onSubmit={handleSubmit}>

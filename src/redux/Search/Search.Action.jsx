@@ -33,7 +33,6 @@ const sendsearch = (question) => {
        ${REACT_APP_BASE_URL}search/movie?api_key=${REACT_APP_APIKEY}&query=${question}`,
     })
       .then((resp) => {
-        console.log(resp, "ddddddddddddddddddddddd");
         dispatch(sendSearchSuccess(resp.data.message));
         if (resp.data.status === 200) {
           dispatch(sendSearchSuccess(resp.data.message));
